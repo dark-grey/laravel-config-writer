@@ -1,5 +1,5 @@
 {
-    "name": "october/config",
+    "name": "dark-grey/laravel-config-writer",
     "description": "Configuration extension",
     "homepage": "http://octobercms.com",
     "keywords": ["october cms", "october", "laravel", "config", "write"],
