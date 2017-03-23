@@ -21,11 +21,11 @@ class ConfigServiceProvider extends ServiceProvider
         });
 
         // Capture the loaded configuration items
-        $config_items = app('config')->all();
+//        $config_items = app('config')->all();
 
-        $this->app['config'] = $this->app->share(function($app) use ($config_items)
-        {
-            return $app->make('October\Rain\Config\Repository', $config_items);
-        });
+//        $this->app['config'] = $this->app->share(function($app) use ($config_items)
+//        {
+//            return $app->make('October\Rain\Config\Repository', $config_items);
+//        });
     }
 }
