@@ -16,12 +16,6 @@ Add this to `app/config/app.php` under the 'providers' key:
 'October\Rain\Config\ConfigServiceProvider',
 ```
 
-You can now write to config files:
-
-```php
-Config::write('app.url', 'http://octobercms.com');
-```
-
 ### Usage outside Laravel
 
 The `Rewrite` class can be used anywhere.
